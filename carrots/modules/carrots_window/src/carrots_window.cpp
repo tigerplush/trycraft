@@ -15,7 +15,7 @@ namespace carrots_window
     {
         #ifdef WIN32
         #pragma message ("win32")
-        window::Window::create();
+        // window::Window::create();
         #endif
         #ifdef UNIX
         #pragma message ("unix")
