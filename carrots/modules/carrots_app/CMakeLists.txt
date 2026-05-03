@@ -13,3 +13,8 @@ target_sources(carrots_app
     include/app/app.hpp
     include/plugin/plugin_traits.hpp
 )
+
+target_link_libraries(carrots_app
+    PUBLIC
+    carrots_ecs
+)

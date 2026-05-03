@@ -17,6 +17,7 @@ namespace carrots_app
 
         public:
             virtual App &add_plugin(IPlugin &plugin) override;
+            virtual App &add_system(ScheduleLabel label, IntoSystem system) override;
 
         public:
             int run();

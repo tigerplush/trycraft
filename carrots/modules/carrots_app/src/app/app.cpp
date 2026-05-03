@@ -20,6 +20,11 @@ namespace carrots_app
             return *this;
         }
 
+        App &App::add_system(ScheduleLabel label, IntoSystem system)
+        {
+            return *this;
+        }
+
         int App::run()
         {
             return 0;
